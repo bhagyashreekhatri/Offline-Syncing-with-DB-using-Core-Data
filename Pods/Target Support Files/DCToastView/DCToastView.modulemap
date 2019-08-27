@@ -1,0 +1,6 @@
+framework module DCToastView {
+  umbrella header "DCToastView-umbrella.h"
+
+  export *
+  module * { export * }
+}
