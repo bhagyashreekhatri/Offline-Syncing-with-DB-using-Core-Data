@@ -137,6 +137,8 @@ class UserPresenter {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return nil }
         let managedContext = appDelegate.persistentContainer.viewContext
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "UserList")
+        let sortDescriptor1 = NSSortDescriptor(key: "id", ascending: true)
+        request.sortDescriptors = [sortDescriptor1]
         request.returnsObjectsAsFaults = false
         do {
             let users = try managedContext.fetch(request)

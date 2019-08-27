@@ -68,13 +68,18 @@
                                             <outlet property="delegate" destination="zIL-ve-n2Z" id="Qwg-OF-ysX"/>
                                         </connections>
                                     </tableView>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="msz-vY-5J4">
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="msz-vY-5J4">
                                         <rect key="frame" x="0.0" y="291.5" width="375" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="8FD-TB-pkQ"/>
+                                            <constraint firstAttribute="height" constant="20" id="fLH-HK-GQJ"/>
+                                        </constraints>
                                     </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="msz-vY-5J4" firstAttribute="centerX" secondItem="GM2-uG-W29" secondAttribute="centerX" id="Fsb-VR-z3B"/>
+                                    <constraint firstItem="msz-vY-5J4" firstAttribute="centerY" secondItem="GM2-uG-W29" secondAttribute="centerY" id="IyL-OA-2No"/>
                                     <constraint firstAttribute="bottom" secondItem="mp3-GR-N5L" secondAttribute="bottom" id="KW2-Ig-yFh"/>
                                     <constraint firstAttribute="trailing" secondItem="mp3-GR-N5L" secondAttribute="trailing" id="PNd-sf-VPH"/>
                                     <constraint firstItem="mp3-GR-N5L" firstAttribute="top" secondItem="GM2-uG-W29" secondAttribute="top" id="ZnH-6l-5dY"/>
