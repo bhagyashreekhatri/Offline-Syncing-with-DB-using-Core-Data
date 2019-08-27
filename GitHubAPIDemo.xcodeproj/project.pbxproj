@@ -15,17 +15,11 @@
 		25AAB867230EAF1300AFA279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB855230EAF1300AFA279 /* AppDelegate.swift */; };
 		25AAB868230EAF1300AFA279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB855230EAF1300AFA279 /* AppDelegate.swift */; };
 		25AAB869230EAF1300AFA279 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB858230EAF1300AFA279 /* UserPresenter.swift */; };
-		25AAB86A230EAF1300AFA279 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB858230EAF1300AFA279 /* UserPresenter.swift */; };
-		25AAB86B230EAF1300AFA279 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB858230EAF1300AFA279 /* UserPresenter.swift */; };
 		25AAB86C230EAF1300AFA279 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB85A230EAF1300AFA279 /* UserViewController.swift */; };
-		25AAB86D230EAF1300AFA279 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB85A230EAF1300AFA279 /* UserViewController.swift */; };
-		25AAB86E230EAF1300AFA279 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB85A230EAF1300AFA279 /* UserViewController.swift */; };
 		25AAB86F230EAF1300AFA279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB85B230EAF1300AFA279 /* LaunchScreen.storyboard */; };
 		25AAB870230EAF1300AFA279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB85B230EAF1300AFA279 /* LaunchScreen.storyboard */; };
 		25AAB871230EAF1300AFA279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB85B230EAF1300AFA279 /* LaunchScreen.storyboard */; };
 		25AAB872230EAF1300AFA279 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB85D230EAF1300AFA279 /* UserService.swift */; };
-		25AAB873230EAF1300AFA279 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB85D230EAF1300AFA279 /* UserService.swift */; };
-		25AAB874230EAF1300AFA279 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB85D230EAF1300AFA279 /* UserService.swift */; };
 		25AAB878230EAF1300AFA279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB85F230EAF1300AFA279 /* Assets.xcassets */; };
 		25AAB879230EAF1300AFA279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB85F230EAF1300AFA279 /* Assets.xcassets */; };
 		25AAB87A230EAF1300AFA279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB85F230EAF1300AFA279 /* Assets.xcassets */; };
@@ -34,11 +28,7 @@
 		25AAB87E230EB82600AFA279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB87B230EB82600AFA279 /* Main.storyboard */; };
 		25AAB880230EBD9400AFA279 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AAB87F230EBD9400AFA279 /* Kingfisher.framework */; };
 		25AAB882230EC3A300AFA279 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB881230EC3A300AFA279 /* UserDetailViewController.swift */; };
-		25AAB883230EC3A300AFA279 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB881230EC3A300AFA279 /* UserDetailViewController.swift */; };
-		25AAB884230EC3A300AFA279 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB881230EC3A300AFA279 /* UserDetailViewController.swift */; };
 		25AAB886230EC50700AFA279 /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB885230EC50700AFA279 /* UserDetailModel.swift */; };
-		25AAB887230EC50700AFA279 /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB885230EC50700AFA279 /* UserDetailModel.swift */; };
-		25AAB888230EC50700AFA279 /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB885230EC50700AFA279 /* UserDetailModel.swift */; };
 		25BAA0662313CCD000CA5D08 /* UsersList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25BAA0642313CCD000CA5D08 /* UsersList.xcdatamodeld */; };
 		25BAA0712313CE6500CA5D08 /* UserList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAA06F2313CE6500CA5D08 /* UserList+CoreDataProperties.swift */; };
 		25BAA0722313CE6500CA5D08 /* UserList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAA0702313CE6500CA5D08 /* UserList+CoreDataClass.swift */; };
@@ -525,13 +515,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25AAB86D230EAF1300AFA279 /* UserViewController.swift in Sources */,
 				25AAB867230EAF1300AFA279 /* AppDelegate.swift in Sources */,
-				25AAB873230EAF1300AFA279 /* UserService.swift in Sources */,
-				25AAB86A230EAF1300AFA279 /* UserPresenter.swift in Sources */,
-				25AAB887230EC50700AFA279 /* UserDetailModel.swift in Sources */,
 				25BCFF35230FE738006E1660 /* Helper.swift in Sources */,
-				25AAB883230EC3A300AFA279 /* UserDetailViewController.swift in Sources */,
 				25AAB834230E393900AFA279 /* GitHubAPIDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,13 +525,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25AAB86E230EAF1300AFA279 /* UserViewController.swift in Sources */,
 				25AAB868230EAF1300AFA279 /* AppDelegate.swift in Sources */,
-				25AAB874230EAF1300AFA279 /* UserService.swift in Sources */,
-				25AAB86B230EAF1300AFA279 /* UserPresenter.swift in Sources */,
-				25AAB888230EC50700AFA279 /* UserDetailModel.swift in Sources */,
 				25BCFF36230FE738006E1660 /* Helper.swift in Sources */,
-				25AAB884230EC3A300AFA279 /* UserDetailViewController.swift in Sources */,
 				25AAB83F230E393900AFA279 /* GitHubAPIDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
